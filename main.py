@@ -22,7 +22,8 @@ def get_weather(api_key, city, lang):
 
 
 if __name__ == "__main__":
-  api_key = "3c4419c41d2df1a674a0672bfa05f59f"
+  api_key = "your_api_key_here"
   city = "Stuttgart"
   lang = "de"
   get_weather(api_key, city, lang)
+
